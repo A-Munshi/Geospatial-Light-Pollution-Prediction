@@ -58,5 +58,69 @@ The **Prophet model** achieved the lowest error values and passed statistical va
   - *Dubai Marina*
 - Emerging hotspots identified around *Dubai South*, *Al Qudra*, and *Jebel Ali*.
 
-### 📂 Repository Structure
+### Repository Structure
+Geospatial-Light-Pollution-Prediction/
+│
+├── data/
+│ ├── VIIRS_Dubai_2012_2024.csv
+│ ├── Dubai_Boundary.shp
+│ └── Predicted_NTL_2025_2033.tif
+│
+├── notebooks/
+│ ├── 01_Data_Preprocessing.ipynb
+│ ├── 02_SARIMA_Model.ipynb
+│ ├── 03_Prophet_Model.ipynb
+│ ├── 04_XGBoost_Model.ipynb
+│ └── 05_LSTM_Model.ipynb
+│
+├── results/
+│ ├── performance_metrics.csv
+│ ├── residual_plots/
+│ ├── prediction_graphs/
+│ └── ntl_spatial_maps/
+│
+├── src/
+│ ├── preprocessing.py
+│ ├── forecast_models.py
+│ ├── evaluate.py
+│ └── visualize.py
+│
+├── requirements.txt
+└── README.md
 
+
+### 💻 Tech Stack
+- **Languages:** Python (3.13)
+- **Libraries:** pandas, numpy, statsmodels, prophet, xgboost, tensorflow, keras, rasterio, geopandas, matplotlib, seaborn
+- **Platform:** Google Earth Engine
+
+### How to Run
+1. Clone the repository:
+   ```
+   git clone https://github.com/A-Munshi/Geospatial-Light-Pollution-Prediction.git
+```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run notebooks in order (1 to 5) inside `/notebooks/`.
+4. View model outputs and spatial predictions in `/results/`.
+```
+
+### Insights
+* NTL levels in Dubai show a **consistent upward trend** (2012–2033).
+* **Prophet** model provides the most stable and interpretable forecasts.
+* Spatial maps show both **core hotspot persistence** and **peripheral growth**.
+* The findings highlight Dubai’s **expanding artificial illumination footprint**, especially beyond 2029.
+
+### Future Work
+
+* Extend analysis to **other major cities** (Singapore, Los Angeles, Kuwait City).
+* Combine NTL data with **socioeconomic and land-use indicators**.
+* Build a **web-based interactive visualization dashboard**.
+
+## ✍️ Authors
+
+**Anuvab Munshi**, **Saikat Mondal**, **Ayush Shaw**
+Department of Computer Applications & Science,
+Institute of Engineering & Management, Kolkata
