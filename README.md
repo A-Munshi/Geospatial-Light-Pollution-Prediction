@@ -59,6 +59,7 @@ The **Prophet model** achieved the lowest error values and passed statistical va
 - Emerging hotspots identified around *Dubai South*, *Al Qudra*, and *Jebel Ali*.
 
 ### Repository Structure
+```
 Geospatial-Light-Pollution-Prediction/
 │
 ├── data/
@@ -87,7 +88,7 @@ Geospatial-Light-Pollution-Prediction/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ### 💻 Tech Stack
 - **Languages:** Python (3.13)
