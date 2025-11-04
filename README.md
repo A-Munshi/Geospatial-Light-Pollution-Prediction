@@ -1,6 +1,6 @@
 ## 🌍 Geospatial Light Pollution Prediction – Dubai (2012–2033)
 ### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
-<img width="1713" height="1169" alt="Screenshot 2025-04-10 213323" src="https://github.com/user-attachments/assets/6c5b318b-59db-49df-853d-db08a10d675b" />
+<img width="1713" height="1169" alt="Dubai_GEE" src="https://github.com/user-attachments/assets/6c5b318b-59db-49df-853d-db08a10d675b" />
 Dubai
 
 ### Overview
@@ -33,7 +33,7 @@ By leveraging advanced **time-series forecasting** and **machine learning** mode
 | **Prophet** | Handles trend and seasonal decomposition; most accurate.  |       `prophet`       |
 | **XGBoost** | Gradient boosting for non-linear dependencies.            |       `xgboost`       |
 |  **LSTM**   | Neural network capturing long-term temporal patterns.     | `tensorflow`, `keras` |
-<img width="2415" height="1558" alt="image" src="https://github.com/user-attachments/assets/418c4122-2ddd-41b4-84dd-cb099044345a" />
+<img width="2415" height="1558" alt="PredictedvsHistorical_NTL" src="https://github.com/user-attachments/assets/418c4122-2ddd-41b4-84dd-cb099044345a" />
 Graphs showing Predicted vs Historical NTL using the above models
 
 #### 3. Evaluation Metrics
@@ -62,10 +62,10 @@ The **Prophet model** achieved the lowest error values and passed statistical va
   - *Dubai Marina*
 - Emerging hotspots identified around *Dubai South*, *Al Qudra*, and *Jebel Ali*.
 
-<img width="1859" height="1532" alt="Screenshot 2025-04-11 153724" src="https://github.com/user-attachments/assets/2cd7d095-c162-45fc-aefd-676ce367d2f0" />
+<img width="1859" height="1532" alt="HistoricalNTL" src="https://github.com/user-attachments/assets/2cd7d095-c162-45fc-aefd-676ce367d2f0" />
 Monthly VIIRS-derived NTL images of Dubai from January 2024 to December 2024
 
-<img width="2450" height="1549" alt="Screenshot 2025-04-11 165845" src="https://github.com/user-attachments/assets/6cc39ce4-e466-49fe-8847-a5eca0c178bc" />
+<img width="2450" height="1549" alt="PredictedNTL" src="https://github.com/user-attachments/assets/6cc39ce4-e466-49fe-8847-a5eca0c178bc" />
 Predicted NTL images of Dubai from 2025 to 2033
 
 ### Repository Structure
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 * Combine NTL data with **socioeconomic and land-use indicators**.
 * Build a **web-based interactive visualization dashboard**.
 
-## ✍️ Authors
+### Authors
 **Anuvab Munshi**, **Saikat Mondal**, **Ayush Shaw**
 Department of Computer Applications & Science,
 Institute of Engineering & Management, Kolkata
