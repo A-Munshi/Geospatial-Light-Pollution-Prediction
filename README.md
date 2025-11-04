@@ -1,6 +1,6 @@
 ## 🌍 Geospatial Light Pollution Prediction – Dubai (2012–2033)
 ### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
-<img width="420" height="293" alt="image" src="https://github.com/user-attachments/assets/4bfd7bb2-2948-4480-9cd8-4cb659deb27b" />
+<img width="1713" height="1169" alt="Screenshot 2025-04-10 213323" src="https://github.com/user-attachments/assets/6c5b318b-59db-49df-853d-db08a10d675b" />
 Dubai
 
 ### Overview
