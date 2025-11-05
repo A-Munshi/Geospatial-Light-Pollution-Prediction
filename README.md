@@ -62,40 +62,25 @@ The **Prophet model** achieved the lowest error values and passed statistical va
   - *Dubai Marina*
 - Emerging hotspots identified around *Dubai South*, *Al Qudra*, and *Jebel Ali*.
 
+**Monthly VIIRS-derived NTL images of Dubai from January 2024 to December 2024**
 <img width="1859" height="1532" alt="HistoricalNTL" src="https://github.com/user-attachments/assets/2cd7d095-c162-45fc-aefd-676ce367d2f0" />
-Monthly VIIRS-derived NTL images of Dubai from January 2024 to December 2024
 
+
+**Predicted NTL images of Dubai from 2025 to 2033**
 <img width="2450" height="1549" alt="PredictedNTL" src="https://github.com/user-attachments/assets/6cc39ce4-e466-49fe-8847-a5eca0c178bc" />
-Predicted NTL images of Dubai from 2025 to 2033
+
+
+**Predicted NTL Image (2033) over UAE map**
+<img width="2020" height="1558" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
+
 
 ### Repository Structure
 ```
 Geospatial-Light-Pollution-Prediction/
 │
-├── data/
-│ ├── VIIRS_Dubai_2012_2024.csv
-│ ├── Dubai_Boundary.shp
-│ └── Predicted_NTL_2025_2033.tif
-│
-├── notebooks/
-│ ├── 01_Data_Preprocessing.ipynb
-│ ├── 02_SARIMA_Model.ipynb
-│ ├── 03_Prophet_Model.ipynb
-│ ├── 04_XGBoost_Model.ipynb
-│ └── 05_LSTM_Model.ipynb
-│
+├── data/        
+├── notebooks/       # .py files
 ├── results/
-│ ├── performance_metrics.csv
-│ ├── residual_plots/
-│ ├── prediction_graphs/
-│ └── ntl_spatial_maps/
-│
-├── src/
-│ ├── preprocessing.py
-│ ├── forecast_models.py
-│ ├── evaluate.py
-│ └── visualize.py
-│
 ├── requirements.txt
 └── README.md
 ```
