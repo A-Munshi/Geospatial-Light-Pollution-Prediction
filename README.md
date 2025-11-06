@@ -5,7 +5,7 @@
 This project analyzes and forecasts **nighttime light (NTL) pollution** trends in **Dubai, UAE** using satellite-based radiance data from the **Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB)**.  
 By leveraging advanced **time-series forecasting** and **machine learning** models, the project predicts radiance levels up to **2033**, offering insights into **urban expansion**, **artificial illumination growth**, and **environmental sustainability**.
 <p align="center">
-<img width="2303" height="1346" alt="Screenshot 2025-04-09 180110" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
+<img width="2003" height="1046" alt="Screenshot 2025-04-09 180110" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
 
   ### 2024 NTL map of Dubai region via Google Earth Engine
 </p>
