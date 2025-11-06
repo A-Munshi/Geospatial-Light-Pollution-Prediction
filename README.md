@@ -1,5 +1,5 @@
 # 🌍 Geospatial NTL Prediction – Dubai (2012–2033)
-## Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
+### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
 
 ## Overview
 This project analyzes and forecasts **nighttime light (NTL) pollution** trends in **Dubai, UAE** using satellite-based radiance data from the **Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB)**.  
