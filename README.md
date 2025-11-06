@@ -1,12 +1,12 @@
-## 🌍 Geospatial NTL Prediction – Dubai (2012–2033)
-### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
+# 🌍 Geospatial NTL Prediction – Dubai (2012–2033)
+## Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
 
-### Overview
+## Overview
 This project analyzes and forecasts **nighttime light (NTL) pollution** trends in **Dubai, UAE** using satellite-based radiance data from the **Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB)**.  
 By leveraging advanced **time-series forecasting** and **machine learning** models, the project predicts radiance levels up to **2033**, offering insights into **urban expansion**, **artificial illumination growth**, and **environmental sustainability**.
 <p align="center">
 
-### Repository Structure
+## Repository Structure
 ```
 Geospatial-Light-Pollution-Prediction/
 │
@@ -21,7 +21,7 @@ Geospatial-Light-Pollution-Prediction/
 <img width="1503" height="546" alt="2024_NTLmap_Dubai" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
 </p>
 
-### Objectives
+## Objectives
 - Analyze historical nighttime light (NTL) patterns from **2012–2024** using VIIRS DNB imagery via **Google Earth Engine (GEE)**.
 - Forecast future mean radiance values (2024–2033) using:
   - **SARIMA**
@@ -31,7 +31,7 @@ Geospatial-Light-Pollution-Prediction/
 - Compared model performances using statistical metrics (**MAE, MSE, RMSE, MAPE**).
 - Visualized predicted spatial distribution of light pollution to identify **emerging hotspots**.
 
-### Methodology
+## Methodology
 #### 1️⃣ Data Collection
 - **Dataset:** VIIRS DNB Monthly Cloud-Free Composites (2012–2024)
 - **Platform:** Google Earth Engine (GEE)
@@ -89,18 +89,18 @@ The **Prophet model** achieved the lowest error values and passed statistical va
 <img width="1720" height="1258" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
 </p>
 
-### Tech Stack
+## Tech Stack
 - **Languages:** Python (3.13)
 - **Libraries:** pandas, numpy, statsmodels, prophet, xgboost, tensorflow, keras, rasterio, geopandas, matplotlib, seaborn
 - **Platform:** Google Earth Engine
 
-### Insights
+## Insights
 * NTL levels in Dubai show a **consistent upward trend** (2012–2033).
 * **Prophet** model provides the most stable and interpretable forecasts.
 * Spatial maps show both **core hotspot persistence** and **peripheral growth**.
 * The findings highlight Dubai’s **expanding artificial illumination footprint**, especially beyond 2029.
 
-### Future Work
+## Future Work
 * Extend analysis to **other major cities** (Singapore, Los Angeles, Kuwait City).
 * Combine NTL data with **socioeconomic and land-use indicators**.
 * Build a **web-based interactive visualization dashboard**.
