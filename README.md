@@ -7,7 +7,7 @@ By leveraging advanced **time-series forecasting** and **machine learning** mode
 <p align="center">
   
   ### 2024 NTL map of Dubai region via Google Earth Engine
-<img width="1503" height="546" alt="Screenshot 2025-04-09 180110" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
+<img width="1503" height="546" alt="2024_NTLmap_Dubai" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
 </p>
 
 ### Objectives
@@ -75,8 +75,6 @@ The **Prophet model** achieved the lowest error values and passed statistical va
 </p>
 
 <p align="center">
-  
-  ### Predicted NTL Image (2033) over UAE map
 <img width="1720" height="1258" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
 </p>
 
