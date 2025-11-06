@@ -1,10 +1,21 @@
-## 🌍 Geospatial Light Pollution Prediction – Dubai (2012–2033)
+## 🌍 Geospatial NTL Prediction – Dubai (2012–2033)
 ### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
 
 ### Overview
 This project analyzes and forecasts **nighttime light (NTL) pollution** trends in **Dubai, UAE** using satellite-based radiance data from the **Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB)**.  
 By leveraging advanced **time-series forecasting** and **machine learning** models, the project predicts radiance levels up to **2033**, offering insights into **urban expansion**, **artificial illumination growth**, and **environmental sustainability**.
 <p align="center">
+
+### Repository Structure
+```
+Geospatial-Light-Pollution-Prediction/
+│
+├── data/               # datasets and shapefiles
+├── notebooks/          # .py files
+├── results/            # residual plots, and spatial visualizations
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation and usage guide
+```
   
   ### 2024 NTL map of Dubai region via Google Earth Engine
 <img width="1503" height="546" alt="2024_NTLmap_Dubai" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
@@ -21,7 +32,7 @@ By leveraging advanced **time-series forecasting** and **machine learning** mode
 - Visualized predicted spatial distribution of light pollution to identify **emerging hotspots**.
 
 ### Methodology
-#### 1. Data Collection
+#### 1️⃣ Data Collection
 - **Dataset:** VIIRS DNB Monthly Cloud-Free Composites (2012–2024)
 - **Platform:** Google Earth Engine (GEE)
 - **Processing Steps:**
@@ -29,7 +40,7 @@ By leveraging advanced **time-series forecasting** and **machine learning** mode
   - Radiance band extraction and clipping to Dubai’s boundary.
   - Monthly mean computation → generated a univariate time-series dataset.
 
-#### 2. Forecasting Models
+#### 2️⃣ Forecasting Models
 | Model | Description | Library Used |
 |-------------|-----------------------------------------------------------|-----------------------|
 | **SARIMA**  | Captures seasonality and linear temporal dependencies.    |     `statsmodels`     |
@@ -42,7 +53,7 @@ By leveraging advanced **time-series forecasting** and **machine learning** mode
 <img width="1370" height="898" alt="image" src="https://github.com/user-attachments/assets/55593c2f-0e38-4009-861d-9e9f1ff64148" />
 </p>
 
-#### 3. Evaluation Metrics
+#### 3️⃣ Evaluation Metrics
 - **Mean Absolute Error (MAE)**
 - **Mean Squared Error (MSE)**
 - **Root Mean Squared Error (RMSE)**
@@ -77,17 +88,6 @@ The **Prophet model** achieved the lowest error values and passed statistical va
 <p align="center">
 <img width="1720" height="1258" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
 </p>
-
-### Repository Structure
-```
-Geospatial-Light-Pollution-Prediction/
-│
-├── data/        
-├── notebooks/       # .py files
-├── results/
-├── requirements.txt
-└── README.md
-```
 
 ### Tech Stack
 - **Languages:** Python (3.13)
