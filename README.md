@@ -1,11 +1,13 @@
 ## 🌍 Geospatial Light Pollution Prediction – Dubai (2012–2033)
 ### Forecasting Nighttime Light Pollution Using Machine Learning and Time-Series Models
-<img width="1713" height="1169" alt="Dubai_GEE" src="https://github.com/user-attachments/assets/6c5b318b-59db-49df-853d-db08a10d675b" />
-Dubai
 
 ### Overview
 This project analyzes and forecasts **nighttime light (NTL) pollution** trends in **Dubai, UAE** using satellite-based radiance data from the **Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB)**.  
 By leveraging advanced **time-series forecasting** and **machine learning** models, the project predicts radiance levels up to **2033**, offering insights into **urban expansion**, **artificial illumination growth**, and **environmental sustainability**.
+<p align="center">
+<img width="2503" height="1546" alt="Screenshot 2025-04-09 180110" src="https://github.com/user-attachments/assets/cc672061-7c07-4682-8e3c-5c3d928e8b03" />
+</p>
+> Dubai
 
 ### Objectives
 - Analyze historical nighttime light (NTL) patterns from **2012–2024** using VIIRS DNB imagery via **Google Earth Engine (GEE)**.
@@ -62,16 +64,12 @@ The **Prophet model** achieved the lowest error values and passed statistical va
   - *Dubai Marina*
 - Emerging hotspots identified around *Dubai South*, *Al Qudra*, and *Jebel Ali*.
 
-**Monthly VIIRS-derived NTL images of Dubai from January 2024 to December 2024**
-<img width="1859" height="1532" alt="HistoricalNTL" src="https://github.com/user-attachments/assets/2cd7d095-c162-45fc-aefd-676ce367d2f0" />
-
-
 **Predicted NTL images of Dubai from 2025 to 2033**
-<img width="2450" height="1549" alt="PredictedNTL" src="https://github.com/user-attachments/assets/6cc39ce4-e466-49fe-8847-a5eca0c178bc" />
+<img width="2350" height="1449" alt="PredictedNTL" src="https://github.com/user-attachments/assets/6cc39ce4-e466-49fe-8847-a5eca0c178bc" />
 
 
 **Predicted NTL Image (2033) over UAE map**
-<img width="2020" height="1558" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
+<img width="1820" height="1358" alt="ImageOverlay" src="https://github.com/user-attachments/assets/4cc1d416-5e36-4556-bd91-ac1f4cc04201" />
 
 
 ### Repository Structure
@@ -90,18 +88,6 @@ Geospatial-Light-Pollution-Prediction/
 - **Libraries:** pandas, numpy, statsmodels, prophet, xgboost, tensorflow, keras, rasterio, geopandas, matplotlib, seaborn
 - **Platform:** Google Earth Engine
 
-### How to Run
-1. Clone the repository:
-```
-git clone https://github.com/A-Munshi/Geospatial-Light-Pollution-Prediction.git
-```
-2. Install dependencies:
-```
-pip install -r requirements.txt
-```
-3. Run notebooks in order (1 to 5) inside `/notebooks/`.
-4. View model outputs and spatial predictions in `/results/`.
-
 ### Insights
 * NTL levels in Dubai show a **consistent upward trend** (2012–2033).
 * **Prophet** model provides the most stable and interpretable forecasts.
@@ -112,8 +98,3 @@ pip install -r requirements.txt
 * Extend analysis to **other major cities** (Singapore, Los Angeles, Kuwait City).
 * Combine NTL data with **socioeconomic and land-use indicators**.
 * Build a **web-based interactive visualization dashboard**.
-
-### Authors
-**Anuvab Munshi**, **Saikat Mondal**, **Ayush Shaw**
-Department of Computer Applications & Science,
-Institute of Engineering & Management, Kolkata
